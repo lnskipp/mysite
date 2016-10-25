@@ -1,0 +1,116 @@
+body {
+background: url(pics/blackwoodtexture.jpg);
+font-family: arial, helvetica, serif;
+text-align: center; 
+}
+
+p {
+color: white;
+/*text-align: justify;   Evens out paragraph- rowing */
+}
+
+pre {
+color: white;
+}
+
+#wrapper {
+min-width: 500px; /*determines distance from left edge*/
+margin: 30 auto; /* keeps it centered on auto, numeric value determines distance from top*/
+}
+
+.header {
+/* background: #6a6a6a; 
+border: 2px solid; */
+height: 80px;
+width: 800px; 
+margin: 0 auto;
+}
+
+/* link bar styling */
+#nav {
+background: #272727;
+border-left: 2px solid;
+border-right: 2px solid;
+height: 35px;
+width: 800px; 
+margin: 0 auto;
+}
+
+#nav ul
+{
+list-style-type: none;
+margin: 0;
+padding: 0;
+line-height: 35px;
+}
+
+#nav li{display: inline;} /* Forces the linkbar to be horizontally aligned */
+
+#nav li a { /* Determines the style of the linkbar buttons */
+margin: 25px;
+padding: 4px 21px; 
+text-decoration: none;
+border-radius: 25px;
+}
+#nav li a:link {color: #FFFFFF; background: #000000}    /* unvisited link */
+#nav li a:visited {color: #FFFFFF;} /* visited link */
+#nav li a:hover {color: #000000; background: #FFFFFF;}   /* mouse over link */
+#nav li a:active {color: #eae5db;}  /* selected link */
+
+/* link bar styling ends*/
+
+.main { 
+background: #6a6a6a;
+border: 2px solid;
+height: 600px;
+width: 800px ;
+margin: 0 auto;
+}
+
+.maincontent {
+background: none;
+margin: 0px 50px;
+width: 350px;
+position: absolute;
+text-align: left;
+}
+
+/*
+img.sebphoto{
+max-width: 350px;
+position: absolute;
+margin: 26px 10px;
+border: 3px solid;
+} 
+
+^ the above doesnt work on IE
+*/
+.footer {
+background: #6a6a6a;
+width: 800px ;
+margin: 0 auto;
+border: 2px solid;
+border-top: 0px;
+}
+   
+.line { /* determines the style of the line- parameter */
+width: 700px ;
+border: 1px solid;
+border-radius: 25px;
+border-color: white;
+}
+
+.line2 { /* determines the style of the line- parameter */
+width: 360px ;
+border: 1px solid;
+border-radius: 25px;
+border-color: white;
+}
+.finflag {
+position: relative;
+left: 387px;
+}
+.engflag {
+position: relative;
+left: 387px;
+}

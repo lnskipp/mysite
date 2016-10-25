@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link rel= stylesheet type=text/css href=gangnamstyle.css media=all />
+  </head>
+<body>
+<?php include ('age.php');?>
+ <div id= wrapper><!-- keeps it together -->
+   <div class= header>header</div>
+     <div id= nav><!-- linkbar -->
+	<ul>
+	  <li><a href="#home">Home</a></li>		
+	  <li><a href="#contact">Contact</a></li>	
+	  <li><a href="#about">About</a></li>
+	</ul>
+     </div><!-- closes linkbar -->
+       <div class= main>
+	 <div class = maincontent> <!-- text goes here -->
+	<h3>Welcome to my page!</h3>
+<p>Feel free to browse my site.<br>
+
+<?=$age?></p>
+
+         </div><!-- Closes main -->
+          <img class= sebphoto src="pics/theman.jpg" />	
+       </div>
+     <div class = footer>Sebastian Hidvegi 2013</div>
+ </div>
+</body>
+</html>

@@ -1,0 +1,226 @@
+body {
+background: url(pics/blackwoodtexture.jpg);
+font-family: myriad pro, arial, helvetica, serif;
+}
+
+p {
+color: white;
+/*text-align: justify;   Evens out paragraph- rowing */
+}
+
+a {
+text-decoration: none;
+}
+
+pre {
+color: white;
+}
+
+#wrapper {
+width: 800px; /*determines distance from left edge*/
+margin: 80px auto; /* keeps it centered on auto, numeric value determines distance from top*/
+/*text-align: left;  this line keeps the content aligned with the window of IE*/
+}
+
+.header {
+/* background: #6a6a6a; 
+border: 2px solid; */
+height: 80px;
+width: 800px; 
+margin: 0px auto;
+text-align: center;
+}
+
+/* link bar styling */
+#nav {
+background: #272727;
+border-left: 2px solid;
+border-right: 2px solid;
+border-top: 2px solid;
+height: 35px;
+width: 800px; 
+margin: 0 auto;
+text-align: center;
+}
+
+#nav ul
+{
+list-style-type: none;
+margin: 0;
+padding: 0;
+line-height: 35px;
+}
+
+#nav li{display: inline;} /* Forces the linkbar to be horizontally aligned */
+
+#nav li a { /* Determines the style of the linkbar buttons */
+margin: 25px;
+padding: 4px 21px; 
+text-decoration: none;
+border-radius: 25px;
+}
+#nav li a:link {color: #FFFFFF; background: #000000}    /* unvisited link */
+#nav li a:visited {color: #FFFFFF; background: #000000} /* visited link */
+#nav li a:hover {color: #000000; background: #FFFFFF;}   /* mouse over link */
+#nav li a:active {color: #eae5db; background: #FFFFFF;}  /* selected link */
+
+/* link bar styling ends*/
+
+.main { 
+background: #6a6a6a;
+border: 2px solid;
+height: auto;
+min-height: 600px;
+width: 800px ;
+margin: 0 auto;
+
+}
+
+.maincontent {
+background: none;
+margin: 0px 50px;
+width: 400px;
+position: relative; /* turning this to absolute will disable dynamic height scaling */
+text-align: left;
+}
+
+.sidecontent {
+width: 1px;
+float: right;
+position: relative;
+left:50px;
+top:10px;
+}
+
+.maincontent2 {
+background: none;
+margin: 25px 25px 50px 50px;
+width: 700px;
+position: relative;
+text-align:center;
+}
+
+.maincontent3 {
+background: none;
+margin: 0px 0px 50px 50px;
+width: 700px;
+position: relative;
+text-align: center;
+}
+
+
+/*.footer {
+background: #272727;
+width: 800px ;
+height: 35px ;
+margin: -2px 0px auto;
+border: 2px solid;
+text-align: center;
+}*/
+
+.footer {
+width: 800px;
+height: auto;
+border: 2px solid;
+background-color: #272727;
+margin: -2px 0px;
+min-height: 35px;
+text-align: center;
+}
+
+.footer p {
+margin: 7px 0px
+}
+  
+.line { /* determines the style of the line- parameter */
+width: 475px ;
+border: 1px solid;
+border-radius: 25px;
+border-color: white;
+position: relative;
+left: 113px;
+}
+
+.line2 { /* determines the style of the line- parameter */
+width: 360px ;
+height: 0px;
+border: 1px solid;
+border-radius: 25px;
+border-color: white;
+}
+.finflag {
+position: relative;
+left: 387px;
+top:-35px;
+}
+.engflag {
+position: relative;
+left: 387px;
+top:-36px;
+}
+
+.nuolikuvake {
+position:relative;
+width :0px;
+height: 0px;
+bottom:16px;
+right: -283px;
+
+}
+
+.text1 {
+margin: -15px 0px;
+}
+
+.spacer1{
+margin: 30px 0px;
+}
+
+.spacer2{
+margin: -16px 0px;
+}
+
+.languages {
+position:relative;
+top:1px;
+left:2px;
+text-align:right;
+height:0px;
+}
+
+.logo {
+position: relative; 
+width: 104px;
+margin:-41px -54px;
+}
+
+#nimi {
+width: 600px;
+position: relative;
+bottom: 110px;
+}
+
+#logo {
+width: 114px;
+position: relative;
+bottom:82px
+}
+
+#email {
+position: relative;
+top: 4px;
+}
+
+#phone {
+position: relative;
+top: 4px;
+}
+
+#portrait {
+width: 350px;
+/*margin: -164px 0px;
+position: relative;
+left: 400px;
+bottom: 240px;*/
+float:right;
+}
